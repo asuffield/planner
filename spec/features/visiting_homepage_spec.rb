@@ -6,6 +6,7 @@ feature 'when visiting the homepage' do
   let!(:next_course) { Fabricate(:course) }
   let!(:event) { Fabricate(:event) }
   let!(:member) { Fabricate(:member) }
+  let!(:meeting) { Fabricate(:meeting) }
 
   before(:each) do
     visit root_path
